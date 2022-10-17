@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Date;
 
 class Season {
+    //constructor de season
     Season(String name,Date startDate, Date endDate){
         this.setName(name);
         this.setStartDate(startDate);

@@ -9,7 +9,7 @@ public class Main {
                 "Torneo 2022, 2do cuatri",
                 comienzoDeCursada,
                 finDeCursada);
-        
+
 
         comienzoDeCursada.setYear(2022);
         comienzoDeCursada.setMonth(7); //Enero 0, Agosto 7
