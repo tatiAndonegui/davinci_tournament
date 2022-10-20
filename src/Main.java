@@ -12,6 +12,7 @@ public class Main {
                 "Torneo 2022, 2do cuatri",
                 comienzoDeCursada,
                 finDeCursada);
+        Player profeSergio= new Player("Sergio Medina", "Goal keeper");
         Team profesPoo= new Team( "Profes POO");
         Team estudiantesPoo = new Team("Estudiantes POO");
 
@@ -19,6 +20,7 @@ public class Main {
                 fechaParcial,
                 profesPoo,
                 estudiantesPoo);
+
         primerParcial.setLocalTeam(profesPoo);
         primerParcial.setVisitantTeam(estudiantesPoo);
 
