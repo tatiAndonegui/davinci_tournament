@@ -22,6 +22,7 @@ public class Main {
         //primerParcial.setLocalGoalCounter(0);
         //primerParcial.setVisitantGoalCounter(0);
 
-
+        Team profesPoo= new Team( "Profes POO");
+        Team estudiantesPoo = new Team("Estudiantes POO");
     }
 }
