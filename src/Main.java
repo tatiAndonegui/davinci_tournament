@@ -12,8 +12,15 @@ public class Main {
                 "Torneo 2022, 2do cuatri",
                 comienzoDeCursada,
                 finDeCursada);
+        Team profesPoo= new Team( "Profes POO");
+        Team estudiantesPoo = new Team("Estudiantes POO");
 
-        Match primerParcial = new Match("aula 116",fechaParcial);
+        Match primerParcial = new Match("aula 116",
+                fechaParcial,
+                profesPoo,
+                estudiantesPoo);
+        primerParcial.setLocalTeam(profesPoo);
+        primerParcial.setVisitantTeam(estudiantesPoo);
 
         //se crea el contructor para no tener que agregar toda esta informaciòn por cada partido que quiera agregar
        // Match primerParcial = new Match();
@@ -22,7 +29,6 @@ public class Main {
         //primerParcial.setLocalGoalCounter(0);
         //primerParcial.setVisitantGoalCounter(0);
 
-        Team profesPoo= new Team( "Profes POO");
-        Team estudiantesPoo = new Team("Estudiantes POO");
+
     }
 }

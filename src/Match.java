@@ -13,11 +13,13 @@ class Match {
         this.setVisitantGoalCounter(0);
     }
 
-    Match(String location, Date date){
+    Match(String location, Date date, Team localTeam, Team visitantTeam){
         this.setLocalGoalCounter(0);
         this.setVisitantGoalCounter(0);
         this.setDate(date);
         this.setLocation(location);
+        this.setLocalTeam(localTeam);
+        this.setVisitantTeam(visitantTeam);
     }
     public void setLocation(String location){
         this.location = location;
