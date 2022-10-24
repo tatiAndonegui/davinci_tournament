@@ -21,7 +21,7 @@ public class Main {
         profesPoo.addPlayer(new Player ("Profe web", "left corner"));
         profesPoo.addPlayer(new Player ("Profe BD", "right corner"));
 
-        
+
         Team estudiantesPoo = new Team("Estudiantes POO");
         estudiantesPoo.addPlayer(new Player ("Vicky", "Goal keeper"));
         estudiantesPoo.addPlayer(new Player ("Tati", "Defender"));
@@ -38,6 +38,7 @@ public class Main {
         primerParcial.setLocalTeam(profesPoo);
         primerParcial.setVisitantTeam(estudiantesPoo);
 
+        System.out.println(primerParcial.generateMarker());
 
 
 
