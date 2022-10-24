@@ -12,14 +12,23 @@ public class Main {
                 "Torneo 2022, 2do cuatri",
                 comienzoDeCursada,
                 finDeCursada);
-        Player profeSergio= new Player("Sergio Medina", "Goal keeper");
-        Player profeSuplente= new Player("Suplente", "Defender");
+
 
         Team profesPoo= new Team( "Profes POO");
-        profesPoo.addPlayer(profeSergio);
-        profesPoo.addPlayer(profeSuplente);
+        profesPoo.addPlayer(new Player ("Sergio Medina", "Goal keeper"));
+        profesPoo.addPlayer(new Player ("Suplente", "Defender"));
+        profesPoo.addPlayer(new Player ("Profe ux", "Goal keeper"));
+        profesPoo.addPlayer(new Player ("Profe web", "left corner"));
+        profesPoo.addPlayer(new Player ("Profe BD", "right corner"));
 
+        
         Team estudiantesPoo = new Team("Estudiantes POO");
+        estudiantesPoo.addPlayer(new Player ("Vicky", "Goal keeper"));
+        estudiantesPoo.addPlayer(new Player ("Tati", "Defender"));
+        estudiantesPoo.addPlayer(new Player ("Lucas", "Goal keeper"));
+        estudiantesPoo.addPlayer(new Player ("Santino", "left corner"));
+        estudiantesPoo.addPlayer(new Player ("Anto", "right corner"));
+
 
         Match primerParcial = new Match("aula 116",
                 fechaParcial,
