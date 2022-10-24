@@ -29,12 +29,7 @@ public class Main {
         primerParcial.setLocalTeam(profesPoo);
         primerParcial.setVisitantTeam(estudiantesPoo);
 
-        //se crea el contructor para no tener que agregar toda esta informaciòn por cada partido que quiera agregar
-       // Match primerParcial = new Match();
-        //primerParcial.setDate(fechaParcial);
-       // primerParcial.setLocation("Aula 116");
-        //primerParcial.setLocalGoalCounter(0);
-        //primerParcial.setVisitantGoalCounter(0);
+       
 
 
     }
