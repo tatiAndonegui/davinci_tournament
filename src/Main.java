@@ -29,7 +29,7 @@ public class Main {
         primerParcial.setLocalTeam(profesPoo);
         primerParcial.setVisitantTeam(estudiantesPoo);
 
-       
+
 
 
     }
