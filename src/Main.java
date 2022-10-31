@@ -39,6 +39,8 @@ public class Main {
         primerParcial.setVisitantTeam(estudiantesPoo);
 
         System.out.println(primerParcial.generateMarker());
+        primerParcial.makeGoal(profesPoo, profesPoo.getPlayer().get(0));
+        System.out.println(primerParcial.generateMarker());
 
 
 
